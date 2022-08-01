@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="renderer" content="webkit">
+<meta name="SiteName" content='内蒙古自治区卫生健康委员会' />
+<meta name="SiteDomain" content="http://wjw.nmg.gov.cn" />
+<meta name="SiteIDCode" content="1500000062" />  
+<meta name="ColumnName" content="新闻发布" />
+<meta name="ColumnDescription" content="新闻发布" />
+<meta name="ColumnKeywods" content="内蒙古自治区卫生健康委员会,新闻中心,新闻发布" />
+<meta name="ColumnType" content="新闻中心" />
+<title>新闻发布_内蒙古自治区卫生健康委员会</title>
+<link rel="icon" href="/images/favicon.gif" type="image/gif" />
+<meta name="keywords" content="内蒙古卫健委,内蒙古自治区卫生健康委员会,卫健委"/>
+<meta name="description" content="内蒙古自治区卫生健康委员会门户网站"/>
+<link href="../../material/css/SJHreset.css" type="text/css" rel="stylesheet" />
+<link href="../../material/css/hf.css" type="text/css" rel="stylesheet" />
+<link href="../../material/css/main.css" type="text/css" rel="stylesheet" />
+<link href="../../material/css/fyys.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="../../material/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<!------------------------- head开始 ------------------------->
+<link rel="stylesheet" href="../../material/css/hf8-27.css">
+<script type="text/javascript" src="../../material/static_shouye/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$.ajax({          
+      type: "get",
+        url:"http://wjw.nmg.gov.cn/personal/validate/getUserInfo",
+        dataType: "json",            
+    success: function (data) {
+      console.log(data);
+      if (data.data.isLogin) {
+        var username = data.data.userInfo.USER_NAME;
+        var mobile = data.data.userInfo.MOBILE;
+        var email = data.data.userInfo.EMAIL;
+        $("#a3").html(username);
+        $("#a1").hide();
+        $("#a2").show();
+        $("#name").val(username);
+        $("#phone").val(mobile);
+        $("#email").val(email);
+      }
+    },
+    error: function (jqXHR) {
+
+    }
+  });
+</script>
+<!-- 公用头部开始 -->
+<div class="g-headbg">
+  <div class="c_topup">
+    <div class="w1100 clearfix">
+      <div class="c_topleft">
+        <a href="http://www.nhc.gov.cn/" target="_blank" class="c_toplink">国家卫生健康委员会网站</a>
+        <a href="http://www.nmg.gov.cn/" target="_blank" class="c_toplink">内蒙古自治区人民政府网站</a>
+        <a href="http://zwfw.nmg.gov.cn/?record=istrue" target="_blank" class="" style="margin-left: 10px;">内蒙古自治区政务服务网站</a>
+      </div>
+      <div class="c_topright">
+        <a class="c_rightlink3" style="cursor:pointer;">部门网站导航</a>
+        <a id="a1" href="https://zwfw.nmg.gov.cn/sso/sso/login?utype=0&redirect=istrue&client_id=4YTG1UQSM&goto=http://wjw.nmg.gov.cn/" class="c_rightlink2">登录/注册</a>
+        <div id="a2" style="display: none;float: left;">
+<a id="a3" href="#" class="c_rightlink2"  target="_blank"></a>
+ <a href="https://zwfw.nmg.gov.cn/personal_center_profile" class="c_rightlink2"  target="_blank">个人中心</a>
+<!-- <a href="http://jtyst.nmg.gov.cn/personal/validate/logout" class="c_rightlink2"  target="_blank">注销</a> -->
+</div>
+        <div class="c_caiddan">
+          <div class="c_guanblef">&times;</div>
+          <div class="c_kunzigun">
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区政府组成部门</div>
+              <div class="c_yizulitd">
+                <a href="http://fgw.nmg.gov.cn/" target="_blank" title="发展和改革委员会">发展和改革委员会</a>
+                  <a href="http://jyt.nmg.gov.cn/" target="_blank" title="教育厅">教育厅</a>
+                  <a href="http://kjt.nmg.gov.cn/" target="_blank" title="科学技术厅">科学技术厅</a>
+                  <a href="http://gxt.nmg.gov.cn/" target="_blank" title="工业和信息化厅">工业和信息化厅</a>
+                  <a href="http://mw.nmg.gov.cn/" target="_blank" title="民族事务委员会">民族事务委员会</a>
+                  <a href="http://gat.nmg.gov.cn/" target="_blank" title="公安厅">公安厅</a>
+                  <a href="http://mzt.nmg.gov.cn/" target="_blank" title="民政厅">民政厅</a>
+                  <a href="http://sft.nmg.gov.cn/" target="_blank" title="司法厅">司法厅</a>
+                  <a href="http://czt.nmg.gov.cn" target="_blank" title="财政厅">财政厅</a>
+                  <a href="http://rst.nmg.gov.cn/nmrsw/" target="_blank" title="人力资源和社会保障厅">人力资源和社会保障厅</a>
+                  <a href="http://zrzy.nmg.gov.cn/" target="_blank" title="自然资源厅">自然资源厅</a>
+                  <a href="http://zjt.nmg.gov.cn/" target="_blank" title="住房和城乡建设厅">住房和城乡建设厅</a>
+                  <a href="http://sthjt.nmg.gov.cn/" target="_blank" title="生态环境厅">生态环境厅</a>
+                  <a href="http://jtyst.nmg.gov.cn/" target="_blank" title="交通运输厅">交通运输厅</a>
+                  <a href="http://slt.nmg.gov.cn/" target="_blank" title="水利厅">水利厅</a>
+                  <a href="http://nmt.nmg.gov.cn/" target="_blank" title="农牧厅">农牧厅</a>
+                  <a href="http://swt.nmg.gov.cn/" target="_blank" title="商务厅">商务厅</a>
+                  <a href="http://wlt.nmg.gov.cn" target="_blank" title="文化和旅游厅">文化和旅游厅</a>
+                  <a href="http://wjw.nmg.gov.cn/" target="_blank" title="卫生健康委员会">卫生健康委员会</a>
+                  <a href="http://tyjrswt.nmg.gov.cn/" target="_blank" title="退役军人事务厅">退役军人事务厅</a>
+                  <a href="http://yjglt.nmg.gov.cn/" target="_blank" title="应急管理厅">应急管理厅</a>
+                  <a href="http://audit.nmg.gov.cn/" target="_blank" title="审计厅">审计厅</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属特设机构</div>
+              <div class="c_yizulitd">
+                <a href="http://gzw.nmg.gov.cn/" target="_blank" title="国有资产监督管理委员会">国有资产监督管理委员会</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属机构</div>
+              <div class="c_yizulitd">
+                <a href="http://amr.nmg.gov.cn/" target="_blank" title="市场监督管理局">市场监督管理局</a>
+                <a href="http://lcj.nmg.gov.cn/" target="_blank" title="林业和草原局">林业和草原局</a>
+                <a href="http://gbdsj.nmg.gov.cn/" target="_blank" title="广播电视局">广播电视局</a>
+                <a href="http://tyj.nmg.gov.cn/" target="_blank" title="体育局">体育局</a>
+                <a href="http://tj.nmg.gov.cn/" target="_blank" title="统计局">统计局</a>
+                <a href="http://nyj.nmg.gov.cn/" target="_blank" title="能源局">能源局</a>
+                <a href="http://jrj.nmg.gov.cn/" target="_blank" title="地方金融监督管理局">地方金融监督管理局</a> 
+                <a href="http://rfb.nmg.gov.cn/" target="_blank" title="人民防空办公室">人民防空办公室</a>
+                <a href="http://fpb.nmg.gov.cn/" target="_blank" title="扶贫开发办公室">扶贫开发办公室</a>
+                <a href="http://ylbzj.nmg.gov.cn/" target="_blank" title="医保局">医保局</a>
+                <a href="http://xfj.nmg.gov.cn/" target="_blank" title="信访局">信访局</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c_topmid">
+    <div class="w1100 clearfix" style="height:155px;">
+      <img src="../../material/images/ctopyinz.png" alt="" class="c_topin" />
+      
+    <!-- WXF全文检索 -->
+    <div class="wxf_search_new">
+      <div class="wxf_search_new_type" id="wxf_search_new_type" sitetag="1">搜本站</div>
+      <div class="wxf_search_new_item" id="wxf_search_new_item">
+        <a sitetag="1">搜本站</a>
+        <a sitetag="2">搜平台</a>
+      </div>
+      <input type="text" value="请输入关键字" id="wxf_search_new_input" />
+      <div class="wxf_search_new_btn" id="wxf_search_new_btn">搜索</div>
+    </div>
+
+    <script type="text/javascript">
+    var searchTimeOut;
+    $("#wxf_search_new_type").click(function() {
+      $("#wxf_search_new_item").fadeIn(150);
+      searchTimeOut = setTimeout('$("#wxf_search_new_item").fadeOut(150);', 4000);
+    });
+    $("#wxf_search_new_item a").click(function() {
+      clearTimeout(searchTimeOut);
+      $("#wxf_search_new_item").fadeOut(150);
+      $("#wxf_search_new_type").html($(this).html());
+      $("#wxf_search_new_type").attr("sitetag", $(this).attr("sitetag")); 
+    });
+    $("#wxf_search_new_input").focus(function() {
+      var valStr = $(this).val();
+      if("请输入关键字" == $.trim(valStr)) {
+        $(this).val("");
+      }
+    });
+    $("#wxf_search_new_input").blur(function() {
+      var valStr = $(this).val();
+      if("" == $.trim(valStr)) {
+        $(this).val("请输入关键字");
+      }
+    });
+    $("#wxf_search_new_btn").click(function() {
+      var searchText = $.trim($("#wxf_search_new_input").val());
+      if("请输入关键字" == searchText || "" == searchText) {
+        alert("请输入查询内容");
+        return;
+      }
+      var searchTag = $("#wxf_search_new_type").attr("sitetag");
+      if(1 != searchTag && 2 != searchTag) {
+        searchTag = 1;
+      }
+      window.open('http://wjw.nmg.gov.cn/nmg_dept_search/#/Door?keywords='+ searchText +'&siteTag='+ searchTag +'&siteid=68') // siteTag=1为搜本站，=2为搜平台
+    });
+    </script>
+    <!-- /WXF全文检索 -->
+    
+      <div class="c_list">list</div>
+      <h1 class="c_toplogo"><a href="#"><img src="../../material/images/ctoplogo.png" alt="" /></a></h1>
+    </div>
+    <div class="c_topnav">
+      <div class="c_topnavf c_topnav1"><a href="/">首页</a></div>
+      <div class="c_topnavf c_topnav2"><a href="/xwzx/">新闻中心</a></div>
+      <div class="c_topnavf c_topnav3"><a href="/zwgk/">政务公开</a></div>
+      <div class="c_topnavf c_topnav4"><a href="/zwfw/">政务服务</a></div>
+      <div class="c_topnavf c_topnav5"><a href="/jyzd/">就医指导</a></div>
+      <div class="c_topnavf c_topnav6"><a href="http://wjw.nmg.gov.cn/dataservice/wjw/index.action">数据发布</a></div>
+      <div class="c_topnavf c_topnav7"><a href="/hdjl/zrxx/">互动交流</a></div>
+      <div class="c_topnavf c_topnav6"><a href="../../ztlm/dqzt/djgz/">党建工作</a></div>
+      <div class="c_topnavf c_topnav7"><a href="../../ztlm/">专题栏目</a></div>
+    </div>
+  </div>
+</div>
+<!-- 公用头部结束 -->
+<script type="text/javascript">
+  $('.c_list').click(function () {
+    $('.c_topnav').slideToggle(200);
+  })
+   $('.c_rightlink3').click(function () {
+    $('.c_caiddan').show();
+  })
+  $('.c_guanblef').click(function () {
+    $('.c_caiddan').hide();
+  })
+</script>
+<!------------------------- head结束 ------------------------->
+<!------------------------- mian开始 ------------------------->
+<div class="part">
+<div class="g_dqwz_1 p14 w hui8">当前位置：
+    <a href="../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="../" target="_blank" title="新闻中心" class="CurrChnlCls">新闻中心</a>&nbsp;&gt;&nbsp;<a href="./" target="_blank" title="新闻发布" class="CurrChnlCls">新闻发布</a>
+</div>
+<div class="g_wsjsgkbt p22 w lan">
+    新闻发布
+</div>
+<div class="g_wsjsgk">
+<div class="g_xwfbli">
+<ul>
+  
+    <li >
+        <a href="./202208/t20220801_2095986.html" title="截至7月31日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月31日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-08-01 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220731_2095925.html" title="截至7月30日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月30日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-31 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220730_2095888.html" title="截至7月29日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月29日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-30 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220729_2095144.html" title="截至7月28日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月28日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-29 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220728_2094534.html" title="截至7月27日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月27日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-28 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220727_2093872.html" title="截至7月26日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月26日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-27 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220726_2093263.html" title="截至7月25日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月25日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-26 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220725_2092529.html" title="截至7月24日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月24日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-25 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220724_2092462.html" title="截至7月23日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月23日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-24 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220723_2092458.html" title="国务院联防联控机制就新冠病毒疫苗安全性有效性有关情况举行新闻发布会（实录全文）"  class="p15 w hui4">
+        国务院联防联控机制就新冠病毒疫苗安全性有效性有关情况举行新闻发布会（实录全文）
+        </a>
+        <span>/2022-07-23 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220723_2092421.html" title="截至7月22日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月22日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-23 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220722_2091720.html" title="截至7月21日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月21日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-22 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220721_2091129.html" title="截至7月20日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月20日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-21 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220720_2090372.html" title="截至7月19日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月19日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-20 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220719_2089803.html" title="截至7月18日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月18日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-19 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220718_2089021.html" title="截至7月17日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月17日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-18 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220717_2088960.html" title="截至7月16日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月16日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-17 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220716_2088895.html" title="截至7月15日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月15日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-16 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220715_2088219.html" title="截至7月14日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月14日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-15 </span>
+    </li> 
+  
+    <li >
+        <a href="./202207/t20220714_2087668.html" title="截至7月13日24时内蒙古自治区新冠肺炎疫情最新情况"  class="p15 w hui4">
+        截至7月13日24时内蒙古自治区新冠肺炎疫情最新情况
+        </a>
+        <span>/2022-07-14 </span>
+    </li> 
+
+<div class="c"></div>
+</ul>
+</div>
+  <!-------------分页  right内容 ↓---------------->
+    <style>
+.paginator .on{
+font-weight:Bold;
+color:red;
+background: none repeat scroll 0 0 #fff;
+border: 0px solid #DDDDDD;
+}
+
+.paginator{
+padding-top:25px;
+margin:0 auto  15px;
+}
+
+.paginator  a{
+color:#333;
+font-size:16px;
+border: #cccccc solid 1px;
+padding: 5px 8px;
+border-radius: 3px;
+}
+</style>
+<!--分页-->
+    <div id="AspNetPager1" class="paginator jw_web_fy" style="width:100%;text-align:center;">
+		<SCRIPT LANGUAGE="JavaScript">
+		//createPageHTML(25, 0, "index", "html");
+		var currentPage = 0;//所在页从0开始
+		var headPage = "index"+"."+"html";//首页
+		var tailPage = "index_" + (countPage-1) + ".html"//尾页
+		var prevPage = currentPage-1//上一页
+		var nextPage = currentPage+1//下一页
+		var countPage = 25//共多少页
+		//document.write("共"+countPage+"页&nbsp;&nbsp;");
+		//document.write("当前是第"+(currentPage+1)+"页&nbsp;&nbsp;");
+
+		//设置上一页代码
+		if(countPage>1&&currentPage!=0&&currentPage!=1)
+			//alert(countPage);
+			document.write("<a href=\"index.html\" style=\"margin-right:5px;\">首页</a>&nbsp;<a href=\"index"+"_" + prevPage + "."+"html\" style=\"margin-right:5px;\">上一页</a>&nbsp;");
+		else if(countPage>1&&currentPage!=0&&currentPage==1)
+			//alert("1111-*------" + countPage);
+			document.write("<a href=\"index.html\" style=\"margin-right:5px;\">首页</a>&nbsp;<a href=\"index.html\" style=\"margin-right:5px;\">上一页</a>&nbsp;");
+		else
+			//alert("22222-*------" + countPage);
+			document.write("<a style=\"margin-right:5px;\">首页</a>&nbsp;<a style=\"margin-right:5px;\">上一页</a>&nbsp;");
+		//循环
+		var num = 5;
+		for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++)
+		{
+			if(currentPage==i)
+				document.write("<a class=\"on\" style=\"margin-right:5px;\">"+(i+1)+ "</a>");
+			else if(i==0){
+				document.write("<a href=\"index.html\" style=\"margin-right:5px;\">"+1+"</a>&nbsp;");
+			}else 
+				document.write("<a href=\"index"+"_" + i + "."+"html\" style=\"margin-right:5px;\">"+(i +1)+"</a>&nbsp;");
+		}
+
+		//设置下一页代码 
+		if(countPage>1&&currentPage!=(countPage-1))
+			document.write("<a href=\"index"+"_" + nextPage + "."+"html\" style=\"margin-right:5px;\">下一页</a>&nbsp;<a href=\"index_" + (countPage-1) + ".html\" style=\"margin-right:5px;\">尾页</a>&nbsp;");
+		else
+			document.write("<a style=\"margin-right:5px;\">下一页</a>&nbsp;<a style=\"margin-right:5px;\">尾页</a>&nbsp;");
+			
+		//跳转页面
+		//document.write("<font class='9ptb'>转到第<input type='text' id='num' value="+(currentPage+1)+" style='width:30px' />页"+"&nbsp;<input type='submit' value='确定' onClick=javacript:toPage() /></font>");
+		function toPage(){
+			var _num = document.getElementById("num").value;
+			var str = "index"+"_"+(_num-1)+"."+"html";
+			var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+			if(_num<=1||_num==null)
+				location.href = url+"index"+"."+"html";
+			else if(_num>countPage)
+				alert("本栏目最多"+countPage+"页");
+			else
+				location.href = url+str;
+		}	
+		</SCRIPT>
+   </div>
+    <!--/分页-->
+<div class="c"></div>
+</div>
+</div>
+<!------------------------- mian结束 ------------------------->
+<!-- 底部 --> 
+<link rel="stylesheet" href="../../material/css/hf8-27.css">
+<link rel="stylesheet" href="../../material/css/style.css">
+<link rel="stylesheet" href="../../material/css/g_bottom.css">
+
+<!-- 公用底部开始 -->
+<style>
+    .g_bottom_b_top {
+        border-top: 10px solid #015293;
+    }
+    
+    .g_bottom_b_show {
+        border-top: 10px solid #00467F;
+    }
+    
+    .g_bottom_list {
+        width: 1060px;
+        background-color: #00467F;
+    }
+    
+    .g_bottom_list a {
+        width: 160px;
+        color: #fff;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar {
+        width: 8px;
+        background-color: #004379 ;
+        border-radius: 10px;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color:#016BC2;
+    }
+</style>
+  <div class="c_footer">
+    
+<div class="c_bottomlink w1100 clearfix">
+        <a href="http://www.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">中国政府网</a>
+        <a href="http://www.nhc.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">国家卫生健康委员会网站</a>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_1">
+            <div class="g_bottom_title">
+                 各省市卫生健康委员会
+                <img src="../../material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_1">
+                <div class="g_bottom_list_in">
+                    
+                    <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/97fb8e5a7bcb4c68996024add52d9bbc.shtml" target="_blank" data-idlink="oLink">北京市卫生健康委员会</a>
+  
+                          <a href="http://wsjk.tj.gov.cn/" target="_blank" data-idlink="oLink">天津市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hebei.gov.cn/" target="_blank" data-idlink="oLink">河北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.shanxi.gov.cn/" target="_blank" data-idlink="oLink">山西省卫生健康委员会</a>
+  
+                          <a href="http://wsjk.ln.gov.cn/" target="_blank" data-idlink="oLink">辽宁省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.jl.gov.cn/" target="_blank" data-idlink="oLink">吉林省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hlj.gov.cn/" target="_blank" data-idlink="oLink">黑龙江省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sh.gov.cn/" target="_blank" data-idlink="oLink">上海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.jiangsu.gov.cn/" target="_blank" data-idlink="oLink">江苏省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.zj.gov.cn/" target="_blank" data-idlink="oLink">浙江省卫生健康委员会</a>
+  
+                          <a href="http://wjw.ah.gov.cn/" target="_blank" data-idlink="oLink">安徽省卫生健康委员会</a>
+  
+                          <a href="http://wjw.fujian.gov.cn/" target="_blank" data-idlink="oLink">福建省卫生健康委员会</a>
+                          <a href="http://hc.jiangxi.gov.cn/" target="_blank" data-idlink="oLink">江西省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.shandong.gov.cn/" target="_blank" data-idlink="oLink">山东省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.henan.gov.cn/" target="_blank" data-idlink="oLink">河南省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hubei.gov.cn/" target="_blank" data-idlink="oLink">湖北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hunan.gov.cn/" target="_blank" data-idlink="oLink">湖南省卫生健康委员会</a>
+  
+                          <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/dea72b93576f469f8a42439b6f1890ef.shtml" target="_blank" data-idlink="oLink">广东省卫生健康委员会</a>
+                          <a href="http://wsjkw.gxzf.gov.cn/" target="_blank" data-idlink="oLink">广西壮族自治区卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.cq.gov.cn/" target="_blank" data-idlink="oLink">重庆市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sc.gov.cn/" target="_blank" data-idlink="oLink">四川省卫生健康委员会</a>
+  
+                          <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/b03d088c9a674b9ebcb8435f0f4239df.shtml" target="_blank" data-idlink="oLink">贵州省卫生健康委员会</a>
+  
+                          <a href="http://ynswsjkw.yn.gov.cn/wjwWebsite/web/index" target="_blank" data-idlink="oLink">云南省卫生健康委员会</a>
+  
+                          <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/2c5c21bc3ad847958d8c16069660f762.shtml" target="_blank" data-idlink="oLink">西藏自治区卫生健康委员会</a>
+                          <a href="http://sxwjw.shaanxi.gov.cn/" target="_blank" data-idlink="oLink">陕西省卫生健康委员会</a>
+                          <a href="http://wsjk.gansu.gov.cn/" target="_blank" data-idlink="oLink">甘肃省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.qinghai.gov.cn/" target="_blank" data-idlink="oLink">青海省卫生健康委员会</a>
+                          <a href="http://wsjkw.nx.gov.cn/" target="_blank" data-idlink="oLink">宁夏回族自治区卫生健康委员会</a>
+  
+                          <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/3282d1caa6494ac29ec748af0eaf1625.shtml" target="_blank" data-idlink="oLink">新疆维吾尔自治区卫生健康委员会</a>
+  
+                          <a href="http://www.nhc.gov.cn/wjw/dfzfwz/201906/b42fbb2fc3ea4bedb14262740f512328.shtml" target="_blank" data-idlink="oLink">新疆生产建设兵团卫生健康委员会</a>
+                </div>
+            </div>
+        </div>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_2">
+            <div class="g_bottom_title">
+               盟市卫生健康委员会
+                <img src="../../material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_2">
+                <div class="g_bottom_list_in">
+                    
+                          <a href="http://wjw.huhhot.gov.cn/" target="_blank" data-idlink="oLink">呼和浩特市卫生健康委员会</a>
+  
+                          <a href="http://wjw.baotou.gov.cn/" target="_blank" data-idlink="oLink">包头市卫生健康委员会</a>
+  
+                          <a href="http://wjw.hlbe.gov.cn/" target="_blank" data-idlink="oLink">呼伦贝尔市卫生健康委员会</a>
+  
+                          <a href="http://wsj.xam.gov.cn/" target="_blank" data-idlink="oLink">兴安盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.tongliao.gov.cn/" target="_blank" data-idlink="oLink">通辽市卫生健康委员会</a>
+  
+                          <a href="https://wjw.chifeng.gov.cn/" target="_blank" data-idlink="oLink">赤峰市卫生健康委员会</a>
+  
+                          <a href="http://wjw.xlgl.gov.cn/" target="_blank" data-idlink="oLink">锡林郭勒盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.wulanchabu.gov.cn/" target="_blank" data-idlink="oLink">乌兰察布市卫生健康委员会</a>
+  
+                          <a href="http://wjw.ordos.gov.cn/" target="_blank" data-idlink="oLink">鄂尔多斯市卫生健康委员会</a>
+  
+                          <a href="http://wjw.bynr.gov.cn/" target="_blank" data-idlink="oLink">巴彦淖尔市卫生健康委员会</a>
+  
+                          <a href="http://wjw.wuhai.gov.cn/" target="_blank" data-idlink="oLink">乌海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.als.gov.cn/" target="_blank" data-idlink="oLink">阿拉善盟卫生健康委员会</a>
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="c_bottomdibu w1100 clearfix" style="position: relative;">
+      <a href="http://bszs.conac.cn/sitename?method=show&id=082CA0067C334785E053022819AC9BD7" target="_blank"><img src="../../material/images/bottomImg1.png" class="c_bottomtu1" alt="" /></a>
+      <div class="c_bottomleftli"><a href="/wzdt/">网站地图</a><a href="/wzsm/">网站声明</a></div>
+      <div class="c_bottominfo">
+        <div>主办单位：内蒙古自治区卫生健康委员会　承办单位：内蒙古自治区卫生健康委宣传处</div>
+        <div><a href="" target="_blank">蒙ICP备19004499号</a>　<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010202150857" >蒙公网安备 15010202150857号</a>　 政府网站标识码：1500000062</div>
+        <div>地址：呼和浩特市新华大街63号　联系电话：0471-6944165　技术支持：内蒙古世纪泓科技有限公司 <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278839001'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278839001%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></div>
+      </div>
+      <div style="position: absolute;right: 36px;bottom: 30px;">
+<script id="_jiucuo_" sitecode='1500000062' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+        </script>
+      </div>
+    </div>
+  </div>
+<script>
+    // 底部动画效果
+    function bottomAnimationEffect(item, itemList, itemImage) {
+        $(item).click(function() {
+            if ($(item).hasClass("g_bottom_b_show")) {
+                bottomRestoreStyle(item, itemList, itemImage);
+                return;
+            }
+            $(item).addClass("g_bottom_b_show");
+            $(itemList).show();
+            $(itemImage).css("transform", "rotateZ(180deg)");
+        })
+        $(item).hover(
+            function() {},
+            function() {
+                if ($(item).hasClass("g_bottom_b_show")) {
+                    bottomRestoreStyle(item, itemList, itemImage);
+                    return;
+                }
+            })
+    }
+
+    function bottomRestoreStyle(item, itemList, itemImage) {
+        $(item).removeClass("g_bottom_b_show");
+        $(itemList).hide();
+        $(itemImage).css("transform", "rotateZ(0)");
+    }
+
+    bottomAnimationEffect(".g_b_1", ".g_b_list_1", ".g_b_1 .g_bottom_title img");
+    bottomAnimationEffect(".g_b_2", ".g_b_list_2", ".g_b_2 .g_bottom_title img");
+</script>
+<!-- 公用底部结束 -->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4925" async="async" defer="defer"></script>                                    
+<!-- /底部 -->
+</body>
+</html>
